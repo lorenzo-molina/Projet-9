@@ -21,6 +21,6 @@ void displayGrid(unsigned char tableau[10][10])
         for (y = 0; y < 10; y++) {
             printf(" %d |", tableau[i][y]);
         }
-        printf("\n-----------------------------------------\n");
+        printf("\n-----------------------------------------\n");//a
     }
 }
