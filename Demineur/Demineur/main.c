@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <time.h>
 
 void displayGrid(unsigned char tableau[10][10]);
 
@@ -21,6 +22,6 @@ void displayGrid(unsigned char tableau[10][10])
         for (y = 0; y < 10; y++) {
             printf(" %d |", tableau[i][y]);
         }
-        printf("\n-----------------------------------------\n");//a
+        printf("\n-----------------------------------------\n");
     }
 }
